@@ -11,7 +11,7 @@ namespace _2022._12._30.Controllers
 {
     public class P100_2Controller : Controller
     {
-        // GET: P100_2
+        // GET: P100_2////
         public ActionResult Index(int pageNumber=1)
         {
             pageNumber = pageNumber > 0 ? pageNumber : 1;
