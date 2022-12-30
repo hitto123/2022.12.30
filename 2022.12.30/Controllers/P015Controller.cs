@@ -25,8 +25,8 @@ namespace _2022._12._30.Controllers
             //若有選擇,篩選productName
             if (string.IsNullOrEmpty(productName) == false) data =
                     data.Where(p => p.Name.Contains(productName));
-            if(string.IsNullOrEmpty(price) == false) data =
-                    data.Where(p => p.price.Contains(price));
+            //if(string.isnullorempty(price) == false) data =
+            //        data.where(p => p.price.contains(price));
             return View(data.ToList());
 
         }
